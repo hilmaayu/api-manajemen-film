@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-const cors = require('corsors');
+const cors = require('cors');
 const db = require('./db.js'); // Menggunakan modul pg baru
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
